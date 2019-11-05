@@ -13,6 +13,13 @@
     {{ range .rows }}
     <div class="row">
 
+      {{ if .title }}
+      <div class="col-md-12 mb-5">
+        <h2>{{ .title }}</h2>
+        <hr>
+      </div>
+      {{ end }}
+
       {{ range .items }}
       <div class="col-md-4 mb-5">
         <div class="card h-100">

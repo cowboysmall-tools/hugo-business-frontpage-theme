@@ -81,6 +81,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # title = "Section 1"
 
         [[params.projects.sections.rows]]
+        # title = "Section 1, Row 1"
 
         [[params.projects.sections.rows.items]]
         title = "Card title 1"
@@ -99,6 +100,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # image = ""
 
         [[params.projects.sections.rows]]
+        # title = "Section 1, Row 2"
 
         [[params.projects.sections.rows.items]]
         title = "Card title 4"
@@ -116,6 +118,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # title = "Section 2"
 
         [[params.projects.sections.rows]]
+        # title = "Section 2, Row 1"
 
         [[params.projects.sections.rows.items]]
         title = "Card title 1"
@@ -134,6 +137,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         # image = ""
 
         [[params.projects.sections.rows]]
+        # title = "Section 2, Row 2"
 
         [[params.projects.sections.rows.items]]
         title = "Card title 4"
