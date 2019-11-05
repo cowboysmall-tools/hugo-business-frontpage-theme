@@ -1,0 +1,153 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "Business Frontpage - Start Bootstrap Template"
+theme = "hugo-business-frontpage-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "Business Frontpage - A business home page starter template for Bootstrap 4 featuring marketing boxes and a full width image header"
+
+
+
+
+
+
+    [params.navbar]
+        name = "Start Bootstrap"
+        url = "#"
+
+        [[params.navbar.nav]]
+        current = true
+        name = "Home"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "About"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Services"
+        url = "#"
+        [[params.navbar.nav]]
+        name = "Contact"
+        url = "#"
+
+
+
+
+
+
+    [params.header]
+        name = "Business Name or Tagline"
+        tagline = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non possimus ab labore provident mollitia. Id assumenda voluptate earum corporis facere quibusdam quisquam iste ipsa cumque unde nisi, totam quas ipsam."
+
+
+
+
+
+
+    [params.summary]
+        url = "#"
+
+        [params.summary.description]
+
+        [[params.summary.description.items]]
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!"
+        [[params.summary.description.items]]
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum."
+
+
+        [params.summary.contact]
+        name = "Start Bootstrap"
+        address1 = "3481 Melrose Place"
+        address2 = "Beverly Hills, CA 90210"
+        phone = "(123) 456-7890"
+        email = "name@example.com"
+
+
+
+
+
+
+    [params.projects]
+
+        [[params.projects.sections]]
+        title = "Section 1"
+
+        [[params.projects.sections.rows]]
+
+        [[params.projects.sections.rows.items]]
+        title = "Card title 1"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "#"
+        # image = ""
+        [[params.projects.sections.rows.items]]
+        title = "Card title 2"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "#"
+        # image = ""
+        [[params.projects.sections.rows.items]]
+        title = "Card title 3"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        url = "#"
+        # image = ""
+
+        [[params.projects.sections.rows]]
+
+        [[params.projects.sections.rows.items]]
+        title = "Card title 4"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "#"
+        # image = ""
+        [[params.projects.sections.rows.items]]
+        title = "Card title 5"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "#"
+        # image = ""
+
+
+        [[params.projects.sections]]
+        title = "Section 2"
+
+        [[params.projects.sections.rows]]
+
+        [[params.projects.sections.rows.items]]
+        title = "Card title 1"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "#"
+        # image = ""
+        [[params.projects.sections.rows.items]]
+        title = "Card title 2"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        url = "#"
+        # image = ""
+        [[params.projects.sections.rows.items]]
+        title = "Card title 3"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+        url = "#"
+        # image = ""
+
+        [[params.projects.sections.rows]]
+
+        [[params.projects.sections.rows.items]]
+        title = "Card title 4"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        url = "#"
+        # image = ""
+
+
+
+
+
+
+    [params.footer]
+        copyright = "Your Website"
+
+
+
