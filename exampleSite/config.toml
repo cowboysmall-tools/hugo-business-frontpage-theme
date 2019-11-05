@@ -78,7 +78,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.projects]
 
         [[params.projects.sections]]
-        title = "Section 1"
+        # title = "Section 1"
 
         [[params.projects.sections.rows]]
 
@@ -113,7 +113,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.projects.sections]]
-        title = "Section 2"
+        # title = "Section 2"
 
         [[params.projects.sections.rows]]
 
