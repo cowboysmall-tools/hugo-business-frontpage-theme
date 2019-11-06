@@ -87,17 +87,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Card title 1"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = ""
+        image = "300x200.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 2"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "#"
-        # image = ""
+        image = "300x200.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 3"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "#"
-        # image = ""
+        image = "300x200.png"
 
         [[params.projects.sections.rows]]
         # title = "Section 1, Row 2"
@@ -106,12 +106,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Card title 4"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = ""
+        image = "300x200.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 5"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "#"
-        # image = ""
+        image = "300x200.png"
 
 
         [[params.projects.sections]]
@@ -124,17 +124,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Card title 1"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = ""
+        image = "300x200.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 2"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
         url = "#"
-        # image = ""
+        image = "300x200.png"
         [[params.projects.sections.rows.items]]
         title = "Card title 3"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "#"
-        # image = ""
+        image = "300x200.png"
 
         [[params.projects.sections.rows]]
         # title = "Section 2, Row 2"
@@ -143,7 +143,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Card title 4"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
         url = "#"
-        # image = ""
+        image = "300x200.png"
 
 
 
