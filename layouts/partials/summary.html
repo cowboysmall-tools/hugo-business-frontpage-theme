@@ -2,12 +2,12 @@
     <div class="row">
 
       <div class="col-md-8 mb-5">
-        <h2>{{ i18n "description" }}</h2>
+        <h2>{{ i18n "about" }}</h2>
         <hr>
         {{ range .Site.Params.summary.description.items }}
         <p>{{ .description }}</p>
         {{ end }}
-        <a class="btn btn-primary btn-lg" href="{{ .Site.Params.summary.url }}">{{ i18n "connect" }} &raquo;</a>
+        <a class="btn btn-primary btn-lg" href="{{ .Site.Params.summary.url }}">{{ i18n "more" }} &raquo;</a>
       </div>
 
       <div class="col-md-4 mb-5">
