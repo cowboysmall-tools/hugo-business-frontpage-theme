@@ -3,6 +3,6 @@
 - id: contact
   translation: Contact Us
 - id: link
-  translation: Call to Action
-- id: more
   translation: Find Out More!
+- id: more
+  translation: Call to Action
