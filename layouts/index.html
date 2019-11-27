@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 
-{{ partial "lang.html" . }}
+<html lang="{{ .Site.LanguageCode }}">
 
-<head>
+  <head>
 
-  {{ partial "head.html" . }}
+    {{ partial "head.html" . }}
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  {{ partial "navbar.html" . }}
+    {{ partial "navbar.html" . }}
 
-  {{ partial "header.html" . }}
+    {{ partial "header.html" . }}
 
-  <!-- Page Content -->
-  <div class="container">
+    <!-- Page Content -->
+    <div class="container">
 
-    {{ partial "summary.html" . }}
+      {{ partial "summary.html" . }}
 
-    {{ partial "projects.html" . }}
+      {{ partial "projects.html" . }}
 
-  </div><!-- /.container -->
+    </div><!-- /.container -->
 
-  {{ partial "footer.html" . }}
+    {{ partial "footer.html" . }}
 
-  {{ partial "scripts.html" . }}
+    {{ partial "scripts.html" . }}
 
-</body>
+  </body>
 
 </html>

@@ -79,10 +79,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.sections]]
         # title = "Section 1"
-
         [[params.projects.sections.rows]]
         # title = "Section 1, Row 1"
-
         [[params.projects.sections.rows.items]]
         title = "Card title 1"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
@@ -98,10 +96,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "#"
         image = "300x200.png"
-
         [[params.projects.sections.rows]]
         # title = "Section 1, Row 2"
-
         [[params.projects.sections.rows.items]]
         title = "Card title 4"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
@@ -116,10 +112,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.sections]]
         # title = "Section 2"
-
         [[params.projects.sections.rows]]
         # title = "Section 2, Row 1"
-
         [[params.projects.sections.rows.items]]
         title = "Card title 1"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
@@ -135,10 +129,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque."
         url = "#"
         image = "300x200.png"
-
         [[params.projects.sections.rows]]
         # title = "Section 2, Row 2"
-
         [[params.projects.sections.rows.items]]
         title = "Card title 4"
         description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."

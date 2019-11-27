@@ -1,41 +1,35 @@
 
-  {{ range .Site.Params.projects.sections }}
-
-    {{ if .title }}
-    <div class="row">
-      <div class="col-md-12 mb-5">
-        <h2>{{ .title }}</h2>
-        <hr>
-      </div>
-    </div><!-- /.row -->
-    {{ end }}
-
-    {{ range .rows }}
-    <div class="row">
-
-      {{ if .title }}
-      <div class="col-md-12 mb-5">
-        <h2>{{ .title }}</h2>
-        <hr>
-      </div>
-      {{ end }}
-
-      {{ range .items }}
-      <div class="col-md-4 mb-5">
-        <div class="card h-100">
-          <img class="card-img-top" src="{{ .Site.BaseURL }}assets/images/{{ .image }}" alt="">
-          <div class="card-body">
-            <h4 class="card-title">{{ .title }}</h4>
-            <p class="card-text">{{ .description }}</p>
+      {{ range .Site.Params.projects.sections }}
+        {{ if .title }}
+        <div class="row">
+          <div class="col-md-12 mb-5">
+            <h2>{{ .title }}</h2>
+            <hr>
           </div>
-          <div class="card-footer">
-            <a href="{{ .url }}" class="btn btn-primary">{{ i18n "link" }}</a>
+        </div><!-- /.row -->
+        {{ end }}
+        {{ range .rows }}
+        <div class="row">
+          {{ if .title }}
+          <div class="col-md-12 mb-5">
+            <h2>{{ .title }}</h2>
+            <hr>
           </div>
-        </div>
-      </div>
+          {{ end }}
+          {{ range .items }}
+          <div class="col-md-4 mb-5">
+            <div class="card h-100">
+              <img class="card-img-top" src="{{ .Site.BaseURL }}assets/images/{{ .image }}" alt="">
+              <div class="card-body">
+                <h4 class="card-title">{{ .title }}</h4>
+                <p class="card-text">{{ .description }}</p>
+              </div>
+              <div class="card-footer">
+                <a href="{{ .url }}" class="btn btn-primary">{{ i18n "link" }}</a>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div><!-- /.row -->
+        {{ end }}
       {{ end }}
-
-    </div><!-- /.row -->
-    {{ end }}
-
-  {{ end }}

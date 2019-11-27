@@ -1,23 +1,23 @@
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        {{ with .Site.Params.navbar }}
+        <a class="navbar-brand" href="{{ .url }}">{{ .name }}</a>
+        {{ end }}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <a class="navbar-brand" href="{{ .Site.Params.navbar.url }}">{{ .Site.Params.navbar.name }}</a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            {{ range .Site.Params.navbar.nav }}
+            <li class="nav-item{{ if .current }} active{{ end }}">
+              <a class="nav-link" href="{{ .url }}">{{ .name }}{{ if .current }}<span class="sr-only">(current)</span>{{ end }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          {{ range .Site.Params.navbar.nav }}
-          <li class="nav-item{{ if .current }} active{{ end }}">
-            <a class="nav-link" href="{{ .url }}">{{ .name }}{{ if .current }}<span class="sr-only">(current)</span>{{ end }}</a>
-          </li>
-          {{ end }}
-        </ul>
       </div>
-
-    </div>
-  </nav>
+    </nav>
